@@ -1,0 +1,43 @@
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.main {
+  float:left;
+  width:960px;
+  height:250px; background-color: red;
+}  
+
+
+.left {
+  background-color:blue;
+  float:left;
+  width:320px;
+  height: 180px;
+  margin-top:30px;
+}
+
+.middle {
+  float:left;
+  width:320px;
+  height:180px;
+  background-color:green;margin-top: 30px;
+}
+
+.right{
+   background-color:brown;
+  float:left;
+  width:320px;
+  height: 180px; margin-top: 30px;
+}
+
+
+
+@media only screen and (max-width:800px) {
+  /* For mobile phones: */
+  .left, .middle, .right {
+    width:100%;
+  }
+}
+</style>

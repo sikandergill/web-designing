@@ -1,0 +1,42 @@
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.main {
+  float:left;
+  width:960px;
+  height:400px;
+}  
+
+
+.upper {
+  background-color:blue;
+  float:left;
+  width:960px;
+  height: 150px;
+}
+
+.middle {
+  background-color:grey;
+  float:right;
+  width:640px;
+  height: 160px;
+}
+
+
+.left{
+  background-color:blue;
+  float:left;
+  width:320px;
+  height: 160px;background-color: green;
+}
+
+.down{
+   background-color:red;
+  float:left;
+  width:960px;
+  height: 80px;
+}
+
+</style>

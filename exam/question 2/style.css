@@ -1,0 +1,36 @@
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.main { 
+	border:1px;border-color:black;
+  float:left;
+  width:960px;
+  height: 250px; background-color:lightblue;
+  
+}  
+.left{ 
+	float:left; 
+	width:300px;
+	 height:160px;
+	background-color: green;
+	margin-left: 30px;margin-top:25px;
+}
+.middle{ 
+	float:left; 
+	width:300px;
+	 height:160px;
+	background-color: grey;
+	margin-top:25px;
+}
+.right{ 
+	float:left; 
+	width:300px;
+	 height:160px;
+	background-color: blue;
+	margin-top:25px;
+}
+
+
+</style>
